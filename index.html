@@ -4,18 +4,18 @@
     <script src="https://unpkg.com/@tensorflow/tfjs"></script>
     <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
     <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
+    <link rel="stylesheet" href="styleSheet.css"/>
   </head>
   <body>
     <div id="console"></div>
-
+    <h1>Image Classifier</h1>
     <video autoplay playsinline muted id="webcam" width="224" height="224"></video>
-
-    <br>
-    <button id="class-a">Add A</button>
-    <br>
-    <button id="class-b">Add B</button>
-    <br>
-    <button id="class-c">Add C</button>
+    <h2>Add training images to the model...</h2>
+    <ul>
+      <li><button id="class-a">Add A</button></li>
+      <li><button id="class-b">Add B</button></li>
+      <li><button id="class-c">Add C</button></li>
+    </ul>
     <!-- Load index.js after the content of the page -->
     <script src="index.js"></script>
   </body>
